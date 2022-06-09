@@ -50,23 +50,38 @@
 }
 
 .search-bar i {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
-.location p {
+.location {
 	color: white;
 	margin-top: 2rem;
 	font-size: 30px;
 }
 
-.temperature h1 {
+.temperature {
 	font-size: 3rem;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	color: white;
 }
 
-.info p {
+.humidity {
+	font-size: 1.4rem;
+}
+
+.wind {
+	font-size: 1.4rem;
+}
+
+.info {
 	padding-top: 0.8em;
 	color: white;
+	text-transform: capitalize;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	
 }

@@ -7,25 +7,23 @@
 		<title>Weather App</title>
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js" defer></script>
-		<script
-			src="https://kit.fontawesome.com/dda93e7967.js"
-			crossorigin="anonymous"
-		></script>
+		<script src="https://kit.fontawesome.com/dda93e7967.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div class="background">
 			<div class="weather-box">
 				<div class="search-bar">
-					<input type="text" id="search-input" placeholder="Search" autocomplete="off" />
+					<input type="text" class="search-input" placeholder="Search" autocomplete="off" />
 					<button><i class="fa-solid fa-magnifying-glass"></i></button>
 				</div>
-				<div class="location"></div>
-				<div class="temperature"></div>
-				<img src="" alt="" class="icon">
-				<div class="info"></div>
-				<div class="humidity"></div>
-				<div class="wind"></div>
+				<div class="location">Weather in London</div>
+				<div class="temperature">51°C</div>
+				<div class="flex">
+					<img src="http://openweathermap.org/img/wn/02d.png" alt="clouds" class="icon">
+					<div class="info">Cloudy</div>
 				</div>
+				<div class="humidity">Humidity: 60%</div>
+				<div class="wind">Wind speed: 3.6 km/h</div>
 			</div>
 		</div>
 	</body>

@@ -24,6 +24,18 @@ let weather = {
 		document.querySelector(".temperature").innerText = temp + "°C";
 		document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
 		document.querySelector(".wind").innerText = "Wind speed: " + speed + "km/h";
+	},
+	search: function () {
+		this.fetchWeather(document.querySelector(".search-input").value);
 	}
+};
 
-}
+document.querySelector(".search-bar button").addEventListener("click", function (){
+	weather.search();
+})
+
+document.querySelector(".search-bar button").addEventListener("keyup", function (event){
+	if (event.key == "Enter") {
+		weather.search();
+	}
+});
