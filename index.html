@@ -10,20 +10,18 @@
 		<script src="https://kit.fontawesome.com/dda93e7967.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="weather-box">
-			<div class="search-bar">
-				<input type="text" class="search-input" placeholder="Search" autocomplete="off" />
-				<button><i class="fa-solid fa-magnifying-glass"></i></button>
-			</div>
-			<div class="weather loading">
-				<div class="location">Weather in London</div>
-				<div class="temperature">51°C</div>
-				<div class="flex">
-					<img src="http://openweathermap.org/img/wn/02d.png" alt="clouds" class="icon">
-					<div class="info">Cloudy</div>
+		<div class="background">
+			<div class="weather-box">
+				<div class="search-bar">
+					<input type="text" id="search-input" placeholder="Search" autocomplete="off" />
+					<button><i class="fa-solid fa-magnifying-glass"></i></button>
 				</div>
-				<div class="humidity line-height">Humidity: 60%</div>
-				<div class="wind line-height">Wind speed: 3.6 km/h</div>
+				<div class="location"></div>
+				<div class="temperature"></div>
+				<img src="" alt="" class="icon">
+				<div class="info"></div>
+				<div class="humidity"></div>
+				<div class="wind"></div>
 			</div>
 		</div>
 	</body>
